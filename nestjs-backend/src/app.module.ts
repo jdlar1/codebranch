@@ -16,7 +16,7 @@ import { GeoService } from './geo/geo.service';
         store: await redisStore({
           socket: {
             host: process.env.REDIS_HOST || 'redis',
-            port: parseInt(process.env.REDIS_PORT) || 6379,
+            port: parseInt(process.env.REDIS_PORT || '') || 6379,
           },
         }),
         ttl: 300,
