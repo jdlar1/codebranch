@@ -49,9 +49,6 @@ Then following services are live:
 - nestjs backend at `localhost:3001`
 - nextjs frontend at `localhost:3000`
 
-
-
-
 # Used tools
 - Github Copilot Free was used to assist the code writing so it could be finished faster.
 - Claude Desktop to debug some issues with NestJS and build the layout for the frontend.
